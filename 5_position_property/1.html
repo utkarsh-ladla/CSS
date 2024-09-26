@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+            /* margin-right: 600px;
+            border-radius: 15px; */
+        }
+        img{
+            margin: 80px
+
+        }
+        .image2{
+            position: relative;
+            /* in relative position, position in curent window
+               property(top,left, right, bottom)
+               gap is always same only image is position*/
+            top: 150px;
+        }
+        .container{
+            position: relative;
+            height: 8000px;
+            background-color: beige;
+        }
+
+        .image3{
+            /* position: absolute; */
+            /* The element is positioned relative to its first 
+                positioned (not static) ancestor element */
+            top: 100px;
+        }
+        .image4{
+            position: fixed;
+            /* The element is positioned relative to the browser window */
+        }
+
+        .image3{
+            position: sticky;
+            /* The element is positioned based on the user's scroll position 
+                it is sticky in parent class but in fixed it sticky in whole browser */
+
+        }
+
+        .box{
+            background-color: greenyellow;
+            height: 5000px;
+        }
+    </style>
+</head>
+<body>
+    <!-- css position proprty 
+        types:
+        static,relative, absolute, fixed, sticky
+        by default position property is static...-->
+<div class="container">
+    <img src="img_5/istockphoto-1452604857-612x612 (1).jpg"
+         alt="poster1" 
+         width="300px" 
+         height="300px"
+         class="image1"
+         
+         >
+
+    <img src="img_5/tdraw-girl.webp" 
+         alt="poster2"
+         width="300px" 
+         height="300px"
+         class="image2"
+         >
+
+    <img src="img_5/p0ff8hmx.jpg" 
+         alt="poster3" 
+         width="300px" 
+         height="300px"
+         class="image3"
+         >
+
+    <img src="img_5/GettyImages-1358149692.webp" 
+         alt="poster4" 
+         width="300px"
+         height="300px"
+         class="image4"
+
+         >
+</div>
+
+<div class="box">
+
+
+</div>
+</body>
+</html>

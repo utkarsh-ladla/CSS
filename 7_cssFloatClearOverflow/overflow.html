@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .item{
+            width: 200px;
+            height: 200px;
+            margin: 2px;
+            background-color: aqua;
+            border: 1px solid black;
+            float: left;
+            /* The great collapse 
+                In which when we float all item in box then that div is
+                collapse then we use overflow (auto) in parent class...*/
+                
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+    
+</body>
+</html>

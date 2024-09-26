@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D transforms</title>
+    <style>
+
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 600px;
+        height: 400px;
+        background-color: beige;
+        border: 2px solid black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: auto; /* it help to center box */
+
+        transition: all 3s linear 2s;
+      }
+
+      .box:hover {
+        /* transform: rotate(45deg); */
+        /* transform: scale(2);  
+        transform: rotate(-45deg);
+        transform: skew(45deg); */
+        /* skew for tialt thedha */
+
+        /* 2 means 2x size of box  
+            decimal for decreasing size*/
+
+        transform: translate(500px, -500px);
+        /* translate help in moving in x and y direction */
+      }
+
+      p {
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 2D transforms of objects -->
+
+    <div class="container">
+      <div class="box">
+        <p>This is code box..</p>
+      </div>
+    </div>
+  </body>
+</html>

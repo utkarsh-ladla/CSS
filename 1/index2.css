@@ -1,0 +1,19 @@
+/* element selector */
+p{
+    color: crimson;
+}
+/*ID seletor*/
+#article{
+    color: blueviolet;
+}
+/* class Selector */
+.paraClass{
+    background-color: aliceblue;
+    background-color: red;
+    background-color: aqua;
+}
+p,article{
+    font-size: larger;
+    text-align: center;
+
+}
